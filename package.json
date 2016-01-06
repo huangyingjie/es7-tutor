@@ -45,6 +45,7 @@
     "babel-runtime": "^6.3.19",
     "glob": "^6.0.3",
     "koa": "^1.1.2",
-    "koa-static": "^1.5.2"
+    "koa-static": "^1.5.2",
+    "string.prototype.padstart": "^3.0.0"
   }
 }
