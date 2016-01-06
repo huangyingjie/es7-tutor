@@ -29,6 +29,8 @@
     "eslint": "^1.10.3",
     "mocha": "^2.3.4",
     "mocha-loader": "^0.7.1",
+    "object.entries": "^1.0.3",
+    "object.values": "^1.0.3",
     "webpack": "^1.12.9",
     "webpack-dev-server": "^1.12.0"
   },
