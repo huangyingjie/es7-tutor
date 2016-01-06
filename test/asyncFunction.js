@@ -5,8 +5,12 @@ describe("AsyncFunction", function () {
       it("test async setTimeout", async function (cb) {
         // await必须接收Promise
         const result = await new Promise(resolve => resolve(123));
-        assert.equal(result, 123);
-        cb();
+        try {
+          assert.equal(result, 123);
+          cb();
+        } catch(e) {
+          cb(e);
+        }
       });
     });
 });
