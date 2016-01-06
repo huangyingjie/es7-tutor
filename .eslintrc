@@ -1,17 +1,6 @@
 {
-  "extends": "airbnb",
-  "rules": {
-    "jsx-quotes": [2, "prefer-double"],
-    "indent": [2, 2, {"SwitchCase": 1}],
-    "quotes": [2, "single"],
-    "no-eq-null": 0,
-    "linebreak-style": [2, "unix"],
-    "eqeqeq": [2, "smart"],
-    "semi": [2, "always"],
-    "no-use-before-define": [2, "nofunc"],
-    "curly": [1],
-    "no-shadow": [1],
-    "comma-dangle": 0
-  }
+    "parser": "babel-eslint",
+    "rules": {
+        "strict": 0
+    }
 }
-
